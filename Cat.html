@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: #203040;
+        font-size: 30px;
+        text-align: center;
+        cursor: pointer;
+        color: whitesmoke;
+        display: inline-block;
+
+        }
+        p{
+            position: absolute;
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+        }
+        div:active > img{
+            display: block;
+        }
+
+        div:active > p{
+            display: none;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+</style>
+<body>
+    <div>
+        <p>cat</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQK072qZcrCTN3noOGMncQoi30T3ftTJWHDQ&s" alt="">
+    </div>
+    <div>
+        <p>dog</p>
+        <img src="https://image.petmd.com/files/inline-images/doberman-pinscher-2.jpg?VersionId=goGFbO27A_Gcq6bxT.yT8SbeNEE3V44_" alt="">
+    </div>
+    <div>
+        <p>lion</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmUgCv5ADq7yRzVaj8CV8qWwQKmh96oM-OQA&s" alt="">
+    </div>
+    <div>
+        <p>kong</p>
+        <img src="https://sm.ign.com/ign_in/feature/g/godzilla-v/godzilla-vs-kong-the-hollow-earth-explained_fum9.jpg" alt="">
+    </div>
+</body>
+</html>
